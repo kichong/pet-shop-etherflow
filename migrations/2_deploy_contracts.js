@@ -1,5 +1,5 @@
-var Adoption = artifacts.require("Adoption");
+var EtherFlow = artifacts.require("./EtherFlow.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Adoption);
+  deployer.deploy(EtherFlow);
 };
